@@ -1,0 +1,316 @@
+*, html{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ 
+
+display: block;
+
+
+	/*background: url(images/fon2.jpg) no-repeat; */
+
+
+}
+h2{
+	color: #fff;
+	font-family: Georgia;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 100px;
+
+}
+#home {
+	background: url(images/6.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	float: center;
+	display: block;
+	content:  " ";
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#seccion2 {
+	background: url(images/tradicion.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+#section3{
+	background: url(images/artesano.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+#section4{
+	background: url(images/surf.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+#section6{
+	background: url(images/Man.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+/*Arquitectura*/
+
+
+#A1{
+	background: url(images/A1.jpg) 50% 0 no-repeat fixed;
+	height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#A2{
+	background: url(images/A2.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#A3{
+	background: url(images/A3.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#A4{
+	background: url(images/A4.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+/*Arquitectura*/
+
+
+#Artesanias{
+	background: url(images/Artesanias.jpg) 50% 0 no-repeat fixed;
+	height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#Art1{
+	background: url(images/Art1.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#Art2{
+	background: url(images/Art2.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#Art3{
+	background: url(images/Art3.jpg) 50% 0 no-repeat fixed;
+	/*min-height: 700px;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+	
+	
+/* Destinos */	
+
+#destinos {
+	background: url(images/intro.jpg) 50% 0 no-repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1920px;*/
+	position: relative;
+	float: center;
+	display: block;
+	content:  " ";
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+article{
+	padding: 200px;
+}
+/*.geekhome{
+	background: url() no-repeat;
+	display: block;
+	height: 520px;
+	margin: 0px auto;
+	width: 520px;
+	padding-right: -100px ;
+}*/
+
+footer{
+text-align: center;
+    color: Black;
+	position: auto;
+	background:url(images/) no-repeat; 
+	border-radius: 3px;
+	background-color: White;
+	padding: 20px;
+}
+
+
+footer#tiles{
+	text-align: center;
+    color: Black;
+	position: auto;
+	border-radius: 3px;
+	background-color:White;
+	padding: 20px;
+}
+h1{
+		text-align: center;
+		font-family: Georgia;
+		position: auto;
+
+
+
+}
+p{
+          text-align: center;
+          font-family: Time New Roman;
+          font-size: 25px;
+           color: white;
+           position-top:20px;
+           position: relative;
+
+
+}
+
+a{
+
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#nom {
+
+
+	font-family: cursive;
+	font-size: 14px;
+	color: white;	
+	padding: 30px;
+	margin:-25px;
+}

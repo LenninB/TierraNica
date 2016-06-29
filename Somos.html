@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TierraNica</title>
+		<!-- CSS Code -->
+		<link rel="stylesheet" href="Barra/css/barrastyle.css">
+		<link rel="stylesheet" href="SomosStilos.css">
+		<link rel="stylesheet" href="Barra/fonts.css">
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="stylesheet" href="style.css">
+				<!-- JS Code -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $('section[data-type="parallax_section"]').each(function(){
+			        var $bgobj = $(this); // Variable para asignacion de objeto
+			        $(window).scroll(function() {
+			        	$window = $(window);
+			            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+			            // cordinadas del background
+			            var coords = '50% '+ yPos + 'px';
+			            // moviendo el background
+			            $bgobj.css({ backgroundPosition: coords });
+			        });
+			    });
+			});
+
+		</script>
+
+	<header>
+			<nav>
+				<ul>
+					<li><a href="index.html"><span class="primero"><i class="icon icon-home"></i></span>Inicio</a></li>
+					<li><a href="Somos.html"><span class="segundo"><i class="icon icon-user-tie"></i></span>Quienes Somos</a></li>
+					<li><a href="#"><span class="tercero"><i class="icon icon-profile"></i></span>Acerca de...</a></li>
+					<li><a href="Tienda/Articulos/Tienda1.html"><span class="cuarto"><i class="icon icon-shop"></i></span>Tienda|Articulos</a></li>
+					<li><a href="frmregistro.php"><span class="quinto"><i class="icon icon-users"></i></span>Registrate</a></li>
+				
+				<ul>
+			</nav>
+		</header>
+
+
+	
+
+   </section>
+		<section id="somos" data-type="parallax_section" data-speed="10">
+			<article>
+							<h2>Bienvenido a TierraNica</h2>
+							<p>Nicaragua en la web como nunca antes, descubre los lugares mas intrepitos que nuestra tierra posee. Ademas de las tradiciones, comidas y aventuras que podes vivir.</p>
+							<p> El Dia a dia en nicaragua, no necesitas mucho dinero para conocerla solo tenes q saber donde ir.
+							Tierra Nica te da las mejores opciones para q vos, tu familia, novi@, abule y hasta la suegra la pasen salvaje! </p>
+
+                             <br>
+							<h3> Contacto </h3>
+							</br>
+							<li>Email: contacto@TierraNica.com</li>
+							<li> Email: www.facbook.com/tierranica</li>
+							<li>Email: www.twitter.com/tierranica</li>
+			</article>
+		</section>
+		
+	
+	<footer id="tiles">
+		<ul class="k-effect bottom">
+			<li><a href="Arquitectura.html"><img src="images/Tile1.jpg" /><span class="mask"></span></a></li>
+			<li><a href="Artesanias.html"><img src="images/Tile2.jpg" /><span class="mask"></span></a></li>
+			<li><a href="#url"><img src="images/Tile3.jpg" /><span class="mask"></span></a></li>
+			<li><a href="#url"><img src="images/TileTradiciones.jpg" /><span class="mask"></span></a></li>
+			<li><a href="Tienda/Articulos/Tienda1.html"><img src="images/TiendaTN.jpg" /><span class="mask"></span></a></li>
+			<li><a href="#url"><img src="images/TilePateperro.jpg" /><span class="mask"></span></a></li>
+		</ul>
+	</footer>
+
+		
+    <footer>
+	<ol>Visita nuestras redes sociales y no te perdes de las cosas Tuanys de nuestra Tierra</ol>
+	 <a href="https://www.facebook.com/pages/TierraNica/609766489146541?fref=ts"><img src="images/f.png" height="35px"></a>
+	<a href="hhttps://twitter.com/tierra_nica"><img src="images/t.png" height="35px"></a>
+	<a href="https://tierranicaw.wordpress.com/"><img src="images/w.png" height="35px"></a>
+	<a href="https://www.youtube.com/watch?v=pgeJEaZRvS8"><img src="images/y.png" height="35px">	</a>
+	<p>
+	<ol>Diseño y Desarrollo: ACINcode Developers Inc's</ol>
+              <ul> ®Copyright Todos Los Derechos Reservados </ul>
+              <il>Contacto: Developers@ACINcode.com</il>
+			
+	</p>
+	</footer>
+
+	   </section>
+		</body>
+</html>
